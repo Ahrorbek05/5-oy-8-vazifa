@@ -41,8 +41,16 @@
         border-radius: 8px;
         font-size: 12px;
         font-weight: 600;
+        outline: none;
         margin-bottom: 10px;
         transition: all 0.3s;
+        opacity: .6;
+        pointer-events: none;
+    }
+
+    #button.active{
+        opacity: 1;
+        pointer-events: all;
     }
 
     #button:hover{

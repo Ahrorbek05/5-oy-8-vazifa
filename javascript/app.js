@@ -3,7 +3,7 @@ const button = document.getElementById('button');
 const task = document.querySelector('.task-list');
 
 input.addEventListener('keyup', () => {
-    if(input.ariaValueMax.trim() != 0){
+    if(input.value.trim() != 0){
         button.classList.add('active')
     } else {
         button.classList.remove('active')

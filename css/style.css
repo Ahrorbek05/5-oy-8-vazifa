@@ -35,8 +35,15 @@
   border-radius: 8px;
   font-size: 12px;
   font-weight: 600;
+  outline: none;
   margin-bottom: 10px;
   transition: all 0.3s;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.container #button.active {
+  opacity: 1;
+  pointer-events: all;
 }
 .container #button:hover {
   background-color: rgb(0, 0, 139);
